@@ -1,11 +1,12 @@
-import logo from './logo.svg';
+
 import './App.css';
 
 function App() {
+  const img = "https://www.tronalddump.io/img/tronalddump_850x850.png";
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={img} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
