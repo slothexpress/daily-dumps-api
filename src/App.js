@@ -8,6 +8,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <h1>DAILY DUMPS</h1>
         <img src={img} className="App-logo" alt="logo" />
       </header>
 
@@ -19,7 +20,7 @@ function App() {
 
       <footer className="App-footer">
         <a href="https://www.tronalddump.io/" target="_blank">
-        powered by tronald dump API
+        powered by tronald dump api
         </a>
       </footer>
 
