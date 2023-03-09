@@ -20,12 +20,22 @@ export default function Card() {
         // If data has been fetched properly (not null)
         if (quote && quote._embedded && quote._embedded.source) {
             return (
-              <div className='quote'>
+              <div className='card-quote'>
                 <a target='_blank' href={quote._embedded.source[0].url}>
+                  <p>
                   {quote.value}
+                  </p>
                 </a>
               </div>
             );
+          } else if (quote && quote.value) {
+            return (
+                <div className='card-quote'>
+                    <p>
+                    {quote.value}
+                    </p>
+                </div>
+              );
           } else {
             return null;
           }
