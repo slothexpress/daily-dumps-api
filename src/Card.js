@@ -11,7 +11,7 @@ export default function Card() {
               .then((response) => response.json())
               .then((data) => {
                  console.log(data);
-                 setQuote(data.value);
+                 setQuote(data);
                  console.log(quote)
               })
               .catch((err) => {
@@ -21,7 +21,9 @@ export default function Card() {
 
   return (
     <div className='quote'>
-        {quote}
+        <a href={quote._embedded.source[0].url}>
+           {quote.value}
+        </a>
     </div>
   )
 }
