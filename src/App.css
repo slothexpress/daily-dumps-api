@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +39,18 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.quote {
+  display: flex;
+  border: solid white;
+  border-radius: 20px;
+  margin: 50px 15px;
+  padding: 25px;
+  width: 300px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
 }
