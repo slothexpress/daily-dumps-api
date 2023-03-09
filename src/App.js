@@ -11,9 +11,7 @@ function App() {
         <img src={img} className="App-logo" alt="logo" />
 
         <Card />
-        <Card />
-        <Card />
-        
+
       </header>
 
 
