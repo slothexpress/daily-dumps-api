@@ -94,18 +94,22 @@ body {
   100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
 
-footer {
+footer, .api {
   margin-top: 50px;
   margin-bottom: 100px;
 }
 
-footer a {
+footer a, .api a {
   display: box;
   color: white;
   text-decoration: none;
-  letter-spacing: 1em;
+  letter-spacing: 0.6em;
 }
 
-footer:hover {
-  animation: shake 0.4s;
+footer a {
+  letter-spacing: 2em;
+}
+
+footer:hover, .api:hover {
+  animation: shake 0.7s;
 }

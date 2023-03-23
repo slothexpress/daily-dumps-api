@@ -19,9 +19,22 @@ function App() {
         <Card />
       </main>
 
-      <footer className="App-footer">
+        <div className="api">
+          
+        <br/>
         <a href="https://www.tronalddump.io/" target="_blank">
         powered by tronald dump api
+        </a>
+
+        <br/>
+        <br/>
+
+      </div>
+
+      <footer className="App-footer">
+        
+        <a href="https://github.com/slothexpress/daily-dumps-api" target="_blank">
+        source code
         </a>
       </footer>
 
